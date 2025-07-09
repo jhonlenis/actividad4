@@ -1,0 +1,10 @@
+const METROS_POR_KM = 1000;
+let kilometros = parseFloat(prompt("Introduce la distancia en kilómetros:"));
+let metros = kilometros * METROS_POR_KM;
+let centimetros = metros * 100;
+var esMenorAUnKm = kilometros < 1;
+var valorNulo = null;
+console.log("Distancia en metros:", metros);
+console.log("Distancia en centímetros:", centimetros);
+console.log("¿La distancia es menor a 1 km?", esMenorAUnKm);
+console.log("Valor nulo:", valorNulo);

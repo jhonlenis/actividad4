@@ -1,0 +1,11 @@
+const DESCUENTO = 0.10;
+var entrada = prompt("Introduce el precio del producto:");
+let precio = parseFloat(entrada);
+let precioConDescuento = precio * (1 - DESCUENTO);
+var esMayorA100 = precio > 100;
+let negacion = !esMayorA100;
+var variableSinAsignar;
+console.log("Precio con descuento:", precioConDescuento);
+console.log("¿El precio original es mayor a 100?", esMayorA100);
+console.log("Negación de la comparación:", negacion);
+console.log("Valor sin asignar:", variableSinAsignar);
